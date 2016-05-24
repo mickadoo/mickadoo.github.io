@@ -186,7 +186,17 @@ pre {
     }
 }
 
+/**
+ * Tables
+ */
+th {
+    font-size: 90%;
+    padding: 3px;
+}
 
+th:nth-child(2n+1), td:nth-child(2n+1) {
+    background: #E3E3E3;
+}
 
 /**
  * Icons

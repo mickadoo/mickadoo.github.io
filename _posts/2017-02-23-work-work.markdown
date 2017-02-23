@@ -1,0 +1,77 @@
+---
+layout: post
+title:  "A,B.. P,H,P... C"
+date:   2017-02-23 08:40:00 +0100
+categories: php,c
+---
+
+It's been a while since I posted anything on this. 
+It was actually very nice to see the first comment on a post not too
+long ago. Unfortunately I realized that I had Disqus set up wrong and comments
+for one post were showing up on all posts. I fixed the settings, but the only
+comment was gone. Hello darkness, my old friend..
+
+I started this blog to write about Symfony stuff, and since I started
+with my job I haven't really had much chance to work with Symfony since we
+use Phalcon. Phalcon boasts some really great benchmarks, but I think Symfony
+has a much bigger community and some great tools.
+
+I miss things like the PhpStorm plugins that
+make coding so much easier with their intelligent type-hinting and code 
+completion. It makes me sad to commit something and have the IDE warm me 
+every time that
+ 
+> Some files contain problems.
+  3 errors and 89 warnings found.
+  Would you like to review them?
+  
+Or to see
+
+> phpcs: Too many messages per file, only first 50 errors/warning are shown
+
+It's unfortunately not the environment where I can spend time fixing all the errors either.
+I looked into creating a plugin for Phalcon, but that fizzled out. 
+
+I could have stayed on working with Symfony in my spare time, but I've been 
+learning C instead. It's pretty different to the problems I face in work, so
+it hasn't been bad coming home to work on C stuff after a day of PHP.
+
+I'd never really had a chance to compare them. I'm definitely still more
+comfortable in PHP, but the smaller, more focused approach to dealing with 
+simple problems from my [C book][4] is refreshing after spending a day on a project 
+with almost 500,000 lines of code.
+
+It was probably easier to start programming by not having to deal with strict types, 
+memory allocation and pointers. But dealing with them now in C feels pretty nice, like
+I'm getting to know how things are done a bit better.
+
+It also made me think about optimization for the first time in a long time.
+When creating new endpoints on our API, or adding a new service I tend to follow 
+convention for the project. I might run into a heavy query now and then and have to think 
+about speeding it up, but in general I don't have to deal with it. In fact, I think for large 
+projects a lot of my job is just following convention, finding good names and keeping 
+things organized.
+
+Not so for problems specifically designed to make you think and optimize. I've
+been trying the problems on [Project Euler][1] to try out some C. It's been great
+so far, but I'm starting to get into (for me anyway) some harder problems. Problem 12,
+where you have to find the smallest [triangle number][2] with more than 500 factors took my 
+first attempt 22 minutes to run. I had the answer, but it felt like cheating that
+it took so long. Some research and optimization eventually gave me code that [ran in 0.054 seconds][3].
+
+It's a really nice feeling to see something improve in performance so much.
+
+Anyway, tomorrow is my last day in this company. I had a choice between a big company, Apple, 
+and a smaller one, [Compucorp][5]. I think I got distracted by money to take my current role,
+so I tried to ignore it this time. I think I'll have more time to learn new things and I'll get 
+to work on some open source projects with Compucorp, so I'm starting with them next month. It will
+also be a chance for me to work remotely for the first time, so I'm excited about that.
+ 
+Of course, there's always the chance that I've made a terrible mistake, as the recruiter for Apple
+keeps trying to convince me, but I would regret it if I didn't try it. 
+
+[1]: https://projecteuler.net/
+[2]: https://en.wikipedia.org/wiki/Triangular_number
+[3]: https://projecteuler.net/thread=12;page=9
+[4]: https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628
+[5]: https://www.compucorp.co.uk/

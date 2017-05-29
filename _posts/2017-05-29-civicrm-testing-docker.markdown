@@ -22,7 +22,7 @@ good opportunity to try setting up an image with PHP 5.6 just for CiviCRM.
 It's also very important to be sure before you create any pull requests
 on [CiviCRM Core][civicrm-core] that you know the tests are passing and
 the code is matching their coding standards (a modified version of 
-the [Drupal set][drupal-cs] ). There are already tools for checking your 
+the [Drupal set][drupal-cs]). There are already tools for checking your 
 changes, like [civilint], which is something similar to PHP code
 sniffer.
 
